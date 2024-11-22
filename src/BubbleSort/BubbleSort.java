@@ -16,15 +16,15 @@ public class BubbleSort {
                     int temp = arr[j];
                     arr[j] = arr[j + 1]; // 2
                     arr[j + 1] = temp; // 5
-                      isSorted = true;
+                    isSorted = true;
                 }
-                   System.out.println(Arrays.toString(arr));
+                System.out.println(Arrays.toString(arr));
             }
             if (!isSorted) {
                 break;
             }
-             System.out.println("-------------------");
-         }
+            System.out.println("-------------------");
+        }
 
     }
 }
