@@ -23,7 +23,7 @@ public class BubbleSort {
             if (!isSorted) {
                 break;
             }
-            System.out.println("-------------------");
+             System.out.println("-------------------");
         }
 
     }
