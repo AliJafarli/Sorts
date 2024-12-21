@@ -7,7 +7,7 @@ public class BubbleSort {
         int[] arr = {8, 2, 4, 9, 10, 11, 12, 13}; // temp 5, arr[j + 1] = temp
         //   2, 2, 8, 1, 6, 2 ,7, 4
 
-        System.out.println(Arrays.toString(arr));
+         System.out.println(Arrays.toString(arr));
 
          for (int i = 0; i < arr.length; i++) {
             boolean isSorted = false;
