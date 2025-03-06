@@ -1,7 +1,7 @@
 package SelectionSort;
 import java.util.Arrays;
 
-public class Lesson_11 {
+public class SelectionSort {
     public static void main(String[] args) {
         //2, 2, 8, 1, 6, 2 ,7, 4
 
