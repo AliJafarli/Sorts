@@ -16,7 +16,7 @@ public class SelectionSort {
 
 //        System.out.println(min);
 
-        int[] arr = {5, 2, 8, 1, 6, 2, 7, 4};
+         int[] arr = {5, 2, 8, 1, 6, 2, 7, 4};
         //          {1, 2, 8, 5, 6, 2, 7, 4}
         for (int i = 0; i < arr.length - 1; i++) {
             int min = arr[i];
