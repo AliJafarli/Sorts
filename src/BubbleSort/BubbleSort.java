@@ -15,7 +15,7 @@ public class BubbleSort {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1]; // 2
-                    arr[j + 1] = temp; // 5
+                     arr[j + 1] = temp; // 5
                     isSorted = true;
                 }
                 System.out.println(Arrays.toString(arr));
