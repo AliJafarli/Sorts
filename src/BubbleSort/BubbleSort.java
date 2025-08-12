@@ -18,7 +18,7 @@ public class BubbleSort {
                     arr[j + 1] = temp; // 5
                     isSorted = true;
                 }
-                        System.out.println(Arrays.toString(arr));
+                         System.out.println(Arrays.toString(arr));
             }
             if (!isSorted) {
                 break;
