@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {8, 2, 4, 9, 10, 11, 12, 13}; // temp 5, arr[j + 1] = temp
-        //   2, 2, 8, 1, 6, 2 ,7, 4
+        int[] arr = {8, 2, 4, 9, 10, 11, 12, 13};
+
 
         System.out.println(Arrays.toString(arr));
 
@@ -14,17 +14,18 @@ public class BubbleSort {
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j + 1]; // 2
-                    arr[j + 1] = temp; // 5
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                     isSorted = true;
                 }
-                System.out.println(Arrays.toString(arr));
+
             }
+
             if (!isSorted) {
                 break;
             }
             System.out.println("-------------------");
         }
-
+        System.out.println(Arrays.toString(arr));
     }
 }
