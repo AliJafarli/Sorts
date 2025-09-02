@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {8, 2, 4, 9, 10, 11, 12, 13};
+        int[] arr = {8, 2, 4, 9, 10, 3, 12, 5};
 
 
         System.out.println(Arrays.toString(arr));
@@ -24,9 +24,10 @@ public class BubbleSort {
             if (isSorted) {
                 break;
             }
-            System.out.println("-------------------");
-            System.out.println(Arrays.toString(arr));
+
         }
+        System.out.println("-------------------");
+        System.out.println(Arrays.toString(arr));
 
     }
 }
